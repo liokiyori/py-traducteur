@@ -1,8 +1,8 @@
 # py-traducteur
 Cas pratique sur un traducteur
 
-## Ticket d'incidence
-Cas pratique sur un traducteur. C'est un travail individuel qui est attendu de vous. Chaque apprenant devra présenter un rapport personnel, du code personnel et un dashboard personnel.
+## Cas pratique
+C'est un travail individuel qui est attendu de vous. Chaque apprenant devra présenter un rapport personnel, du code personnel et un dashboard personnel. Lisez bien toutes les consignes avant de commencer.
 
 ## Les tickets d'incident
 Chaque branche représente un ticket d'incident. Il y a 3 branches, donc 3 tickets.
@@ -48,8 +48,8 @@ Le rapport compte entre 2 et 5 pages.
 - Ajoutez la documentation sur le dashboard en expliquant le choix des métriques, le choix de la technologie, la mise à jour des indicateurs et les alertes.
 
 ## Compétences visées
-C.20 : Surveiller une application d’intelligence artificielle
-C.21 : Résoudre les incidents techniques
+- C.20 : Surveiller une application d’intelligence artificielle
+- C.21 : Résoudre les incidents techniques
 
 Ces deux compétences sont validées par l'épreuve E5.
 
