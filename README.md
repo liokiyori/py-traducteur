@@ -1,16 +1,18 @@
-# Ticket d'incident 2
+# Ticket d'incident 3
 
 ## Étapes pour reproduire le problème
-1. Se connecter avec le compte **Cleese** / **Sacré Graal!**.
-2. Le chat charge l'historique des prompts et des traductions de l'utilisateur.
-3. Choisir l'option **"en >> fr"**.
-4. Saisir un texte en anglais dans le champ **"Texte à traduire"**.
-5. Valider avec le bouton **"Traduire"**.
+1. Saisir l'URL "localhost:8501" et valider pour charger l'application web Traducteur.
 
 ## Résultat actuel
-La traduction n'apparait pas, l'interface affiche une erreur 500.
+L'application affiche le volet de connexion et le traducteur.
+Si on se connecte avec le compte **Cleese** / **Sacré Graal!**, il n'y a aucun effet sur la vue.
 
-![Capture d'écran de l'incident](./ressources/ticket2.png)
+![Capture d'écran de l'incident](./ressources/ticket3.png)
 
 ## Comportement attendu
-Après un instant d'attente, la phrase en français apparaît sous le message "Voici votre traduction !".
+- Avant l'authentification d'un compte reconnu, l'application doit afficher le volet de connexion et une page d'accueil.
+- Après l'authentification d'un compte reconnu, l'application doit afficher le bouton de **déconnexion** et la page du traducteur.
+- Lors d'une déconnexion, l'application retrouve son état initial.
+
+Le traducteur ne doit être affiché que pour les comptes utilisateurs authentifiés.
+
