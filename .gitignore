@@ -1,0 +1,11 @@
+__pycache__/
+*.py[code]
+
+api_traducteur/.apivenv
+web_traducteur/.webvenv
+
+bdd_traducteur/mysql.sock
+bdd_traducteur/bdd/
+
+
+
