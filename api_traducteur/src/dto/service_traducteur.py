@@ -7,7 +7,7 @@ class Service_Traducteur(Connexion):
     @classmethod
     def sauvegarder_prompt(cls, prompt:Prompt):
         cls.ouvrir_connexion()
-        query = "INSERT INTO Prompts (text_in, text_out, version, utilisateur) VALUES (%s, %s, %s, %s)"
+        query = "INSERT INTO prompts (text_in, text_out, version, utilisateur) VALUES (%s, %s, %s, %s)"
         values = [prompt.atraduire, prompt.traduction, prompt.version, prompt.utilisateur]
         
         cls.cursor.execute(query, values)
