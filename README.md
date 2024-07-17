@@ -33,7 +33,7 @@ Avant de commencer la résolution du ticket, commencez par lire les attendus du 
 - Ajoutez un dashboard pour assurer le suivi de l'application.
 - Une des métriques doit permettre le suivi du modèle.
 - Ajoutez la documentation du dashboard.
-- Redéployez la solution sur votre dépôt GitHub.
+- Redéployez, un merge, la solution sur votre dépôt GitHub.
 - Rédigez votre rapport.
 
 ## Rapport
