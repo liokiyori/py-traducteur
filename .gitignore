@@ -8,5 +8,7 @@ bdd_traducteur/mysql.sock
 bdd_traducteur/bdd/
 
 .venv/
+.vscode/
+
 
 
