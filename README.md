@@ -17,7 +17,7 @@ Vous trouverez toutes les informations du ticket dans le Readme.
 ## Installation
 Merci de ne rien modifier sur ce dépôt.
 
-1. Faire un clone de la branche qui vous intéresse sur votre dépôt GitHub. Créez une branche pour la correction.
+1. Faire un fork ou un clone de la branche qui vous intéresse sur votre dépôt GitHub. Créez une branche pour la correction.
 2. Installer Git en local. Récupérer le projet en local.
 3. Lancer d'abord la base de données grâce à Docker Compose.
 4. Créer un environnement virtuel pour l'API, puis installez dans l'environnement virtuel les dépendances à partir du fichier `requirements.txt`. Lancez l'API en exécutant le code Python.
