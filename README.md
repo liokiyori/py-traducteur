@@ -57,3 +57,4 @@ Ces deux compétences sont validées par l'épreuve E5.
 - Le transformer d'Huggingface pour le traducteur
 - FastAPI pour l'API
 - Streamlit pour l'application web
+
